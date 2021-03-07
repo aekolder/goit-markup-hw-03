@@ -79,7 +79,7 @@ ol {
 
 .header-contacts{
     display: flex;
-    justify-content: center;
+    align-items: center;
     margin-left: auto;
 }
 
@@ -259,7 +259,7 @@ header::after {
 
 
 .rules-list {
-    display: flex;
+    justify-content: center;
 }
 
 /*============END PRINCIPLES============*/
@@ -276,7 +276,7 @@ header::after {
     margin-bottom: 50px;
 }
 
-.img-list__img {
+.img-list__item {
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc(100% / 3 - 30px);
@@ -333,7 +333,9 @@ header::after {
 
 
 .team-list {
-    display: flex;
+    margin-left: -30px;
+    margin-top: -30px;
+    flex-wrap: wrap;
 
 }
 
