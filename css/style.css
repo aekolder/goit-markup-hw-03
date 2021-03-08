@@ -131,7 +131,9 @@ ol {
     color: var(--accent-color);
 }    
 
-	
+.header-contacts__item {
+    margin-right: 40px
+}	
 
 
 .header-contacts__link {
@@ -140,7 +142,7 @@ ol {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
-    margin-right: 40px;
+    
     
 }
 
@@ -329,6 +331,7 @@ header::after {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    margin-bottom: 10px;
 }
 
 
@@ -357,6 +360,8 @@ footer {
 
 .logo-bottom {
     color: #FFFFFF;
+    display: block;
+    margin: 0 0 16px;
 }
 
 
@@ -415,9 +420,7 @@ footer {
     background: #F5F4FA;
 }
 
-.filter-list__item {
-    margin: 0 0 10px;
-}    
+  
 
 
 .filter-list__button:hover,
