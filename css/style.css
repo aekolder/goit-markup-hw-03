@@ -162,6 +162,11 @@ header::after {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+
+.header-contacts__item--mod {
+    margin: 0;
+}    
 /*============END HEADER============*/
 
 /*============HERO============*/
@@ -347,9 +352,7 @@ header::after {
     padding: 30px 15px;
 }
 
-.header-contacts__item--mod {
-    margin: 0;
-}
+
 
 
 /*============END TEAM============*/
