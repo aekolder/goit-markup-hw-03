@@ -347,6 +347,9 @@ header::after {
     padding: 30px 15px;
 }
 
+.header-contacts__item--mod {
+    margin: 0;
+}
 
 
 /*============END TEAM============*/
